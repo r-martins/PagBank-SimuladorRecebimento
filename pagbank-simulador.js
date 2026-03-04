@@ -96,7 +96,7 @@
 
   function getStyles() {
     return [
-      '.pb-sim { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 560px; margin: 0 auto; padding: 1rem; box-sizing: border-box; }',
+      '.pb-sim { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0 auto; padding: 1rem; box-sizing: border-box; }',
       '.pb-sim * { box-sizing: border-box; }',
       '.pb-sim h2 { margin: 0 0 1rem; font-size: 1.25rem; }',
       '.pb-sim label { display: block; margin-bottom: 0.25rem; font-size: 0.875rem; }',
@@ -155,7 +155,6 @@
     var html =
       '<div class="pb-sim">' +
       '<style>' + getStyles() + '</style>' +
-      '<h2>Simulador de recebimento PagBank (beta)</h2>' +
       '<div class="pb-sim-aviso">Estas taxas são exclusivas para transações realizadas com <a href="https://pbintegracoes.com/?utm_source=simulador">PagBank Integrações</a> e não são válidas para outras integrações ou para o mundo físico (Moderninhas).</div>' +
       '<div class="pb-sim-row">' +
         '<div class="pb-sim-field"><label>Valor da venda (R$)</label><input type="text" inputmode="decimal" id="pb-sim-valor" placeholder="100" value="' + (state.valorVenda) + '"></div>' +
