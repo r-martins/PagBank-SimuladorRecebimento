@@ -155,7 +155,7 @@
     var html =
       '<div class="pb-sim">' +
       '<style>' + getStyles() + '</style>' +
-      '<div class="pb-sim-aviso">Estas taxas são exclusivas para transações realizadas com <a href="https://pbintegracoes.com/?utm_source=simulador">PagBank Integrações</a> e não são válidas para outras integrações ou para o mundo físico (Moderninhas).</div>' +
+      '<div class="pb-sim-aviso">Estas taxas são exclusivas para transações realizadas com <a href="https://pbintegracoes.com/?utm_source=simulador">PagBank Integrações</a> e não são válidas para outras integrações ou para o mundo físico (Moderninhas).<br>ℹ️ Este simulador está em fase de testes e pode conter erros.</div>' +
       '<div class="pb-sim-row">' +
         '<div class="pb-sim-field"><label>Valor da venda (R$)</label><input type="text" inputmode="decimal" id="pb-sim-valor" placeholder="100" value="' + (state.valorVenda) + '"></div>' +
         '<div class="pb-sim-field"><label>Recebimento no cartão</label><select id="pb-sim-receb">' +
